@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables / Secrets
+.env
+.env.*
+
+# Model files
+*.pkl
+*.joblib
+
+# Data files (optional - if not meant to be pushed)
+*.csv
+
+# VS Code settings
+.vscode/
+
+# Pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled Cython files
+*.c
+*.cpp
